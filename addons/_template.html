@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YOUR ADD-ON TITLE — Teru's Addon Wiki</title>
+  <meta name="description" content="Player guide for YOUR ADD-ON TITLE by terutherabbit." />
+  <link rel="icon" type="image/png" href="../assets/img/crystalline.png" />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a class="brand" href="../index.html">
+        <img class="pixel-art" src="../assets/img/crystalline.png" alt="Teru's Addon Wiki" />
+        <span>Teru's Addon Wiki</span>
+      </a>
+      <nav class="nav-desktop">
+        <a class="nav-link" href="../index.html">All Add-ons</a>
+        <a class="btn btn-cf" data-cf-addon="your-addon-slug" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download on CurseForge</a>
+      </nav>
+      <button type="button" id="mobile-menu-btn" class="menu-toggle" aria-expanded="false" aria-controls="mobile-drawer">Menu</button>
+    </div>
+    <nav id="mobile-drawer" class="mobile-drawer">
+      <a class="nav-link" href="../index.html">All Add-ons</a>
+      <a class="btn btn-cf" data-cf-addon="your-addon-slug" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download on CurseForge</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="padding-bottom:18px;">
+      <div class="hero-box">
+        <span class="badge">Version 1.0.0</span>
+        <span class="badge badge-emerald">Bedrock 1.26.50+</span>
+        <h1>YOUR ADD-ON TITLE</h1>
+        <p class="lead">Short player-friendly summary of what this add-on adds.</p>
+        <div class="hero-actions">
+          <a class="btn btn-cf" data-cf-addon="your-addon-slug" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download on CurseForge</a>
+          <a class="btn btn-ghost" data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">More by terutherabbit</a>
+        </div>
+      </div>
+    </section>
+
+    <nav class="mobile-jump-bar">
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#recipes">Recipes</a>
+      <a href="#install">Install</a>
+    </nav>
+
+    <div class="wiki-layout">
+      <aside class="toc">
+        <div class="toc-title">Guide Sections</div>
+        <a href="#overview" class="active">1. Overview</a>
+        <a href="#features">2. Features</a>
+        <a href="#recipes">3. Recipes</a>
+        <a href="#install">4. How to Install</a>
+      </aside>
+      <div>
+        <section id="overview" class="wiki-section"><h2>1. Overview</h2><p>Write your add-on overview here.</p></section>
+        <section id="features" class="wiki-section"><h2>2. Features</h2><p>Explain how mobs, blocks, and items work.</p></section>
+        <section id="recipes" class="wiki-section"><h2>3. Recipes</h2><p>Add crafting or smithing recipes here.</p></section>
+        <section id="install" class="wiki-section"><h2>4. How to Install</h2><p>Download from CurseForge and activate both Behavior and Resource Packs.</p></section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>Teru's Addon Wiki</strong> &middot; &copy; 2026 terutherabbit &middot; All Rights Reserved</div>
+      <a data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">CurseForge Profile</a>
+    </div>
+  </footer>
+
+  <script src="../data/addons.js"></script>
+  <script src="../assets/wiki.js"></script>
+</body>
+</html>

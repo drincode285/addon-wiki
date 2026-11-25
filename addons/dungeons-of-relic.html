@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Dimension: Dungeons of Relic — Teru's Addon Wiki</title>
+  <meta name="description" content="Player guide for New Dimension: Dungeons of Relic by terutherabbit: Ancient City portal, bosses, mobs, and Crystalline Armor & Tools." />
+  <link rel="icon" type="image/png" href="../assets/img/pack_icon.png" />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a class="brand" href="../index.html">
+        <img class="pixel-art" src="../assets/img/crystalline.png" alt="Teru's Addon Wiki" />
+        <span>Teru's Addon Wiki</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a class="nav-link" href="../index.html">All Add-ons</a>
+        <a class="nav-link active" href="dungeons-of-relic.html">Dungeons of Relic</a>
+        <a class="btn btn-cf" data-cf-addon="dungeons-of-relic" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download on CurseForge</a>
+      </nav>
+      <button type="button" id="mobile-menu-btn" class="menu-toggle" aria-expanded="false" aria-controls="mobile-drawer">Menu</button>
+    </div>
+    <nav id="mobile-drawer" class="mobile-drawer" aria-label="Mobile navigation">
+      <a class="nav-link" href="../index.html">All Add-ons</a>
+      <a class="nav-link active" href="dungeons-of-relic.html">Dungeons of Relic Guide</a>
+      <a class="btn btn-cf" data-cf-addon="dungeons-of-relic" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download on CurseForge</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    
+    <section class="hero" style="padding-bottom:18px;">
+      <div class="hero-box">
+        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px;">
+          <img class="pixel-art" src="../assets/img/pack_icon.png" alt="Dungeons of Relic" style="width:72px;height:72px;border-radius:16px;border:1px solid var(--border-strong);background:rgba(56,189,248,0.12);padding:6px;flex-shrink:0;" />
+          <div style="flex:1;min-width:220px;">
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
+              <span class="badge">Version 1.0.0</span>
+              <span class="badge badge-emerald">Bedrock 1.26.50+</span>
+              <span class="badge badge-purple">Enhanced Visuals Ready</span>
+              <span class="badge badge-amber">By terutherabbit</span>
+            </div>
+            <h1 style="margin:0 0 8px;">New Dimension: Dungeons of Relic</h1>
+            <p class="lead" style="margin-bottom:16px;">Your easy-to-follow survival guide for finding the Ancient City portal, surviving bosses and mountain predators, and upgrading your Netherite gear into 3D Crystalline Armor &amp; Tools.</p>
+            <div class="hero-actions">
+              <a class="btn btn-cf" data-cf-addon="dungeons-of-relic" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download on CurseForge</a>
+              <a class="btn btn-ghost" data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">More by terutherabbit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobile Sticky Quick-Jump Bar -->
+    <nav class="mobile-jump-bar" aria-label="Quick section jump">
+      <a href="#dor-overview">Overview</a>
+      <a href="#dor-portal">How to Enter</a>
+      <a href="#dor-world">Biomes &amp; Mining</a>
+      <a href="#dor-mobs">Mobs &amp; Bosses</a>
+      <a href="#dor-gear">Crystalline Gear</a>
+      <a href="#dor-items">Foods &amp; Loot</a>
+      <a href="#dor-install">How to Install</a>
+    </nav>
+
+    <div class="wiki-layout">
+      <aside class="toc" aria-label="Page sections">
+        <div class="toc-title">Guide Sections</div>
+        <a href="#dor-overview" class="active">1. Quick Overview</a>
+        <a href="#dor-portal">2. How to Enter</a>
+        <a href="#dor-world">3. Biomes &amp; Mining</a>
+        <a href="#dor-mobs">4. Mobs &amp; Bosses</a>
+        <a href="#dor-gear">5. Crystalline Gear</a>
+        <a href="#dor-items">6. Foods &amp; Loot</a>
+        <a href="#dor-install">7. How to Install</a>
+      </aside>
+
+      <div>
+        <!-- 1. OVERVIEW -->
+        <section id="dor-overview" class="wiki-section">
+          <h2>1. Quick Overview</h2>
+          <p><strong>Dungeons of Relic</strong> adds an entire new survival dimension packed with slower days, towering mountains, pink cherry wilds, dangerous dungeon bosses, and stronger gear beyond Netherite.</p>
+          <div class="grid-4" style="margin-top:12px;">
+            <div class="card"><strong style="font-size:1.3rem;color:var(--cyan-bright);">3x Slower</strong><p style="margin:4px 0 0;font-size:0.86rem;">3 Overworld days = 1 Dungeon day</p></div>
+            <div class="card"><strong style="font-size:1.3rem;color:var(--purple);">2 Biomes</strong><p style="margin:4px 0 0;font-size:0.86rem;">Relic Overworld &amp; Deep Wilds</p></div>
+            <div class="card"><strong style="font-size:1.3rem;color:var(--rose);">7 Creatures</strong><p style="margin:4px 0 0;font-size:0.86rem;">Bosses, predators &amp; neutral mobs</p></div>
+            <div class="card"><strong style="font-size:1.3rem;color:var(--emerald);">9 3D Items</strong><p style="margin:4px 0 0;font-size:0.86rem;">Full Crystalline Armor &amp; Tools</p></div>
+          </div>
+        </section>
+
+        <!-- 2. HOW TO ENTER -->
+        <section id="dor-portal" class="wiki-section">
+          <h2>2. How to Enter the Dimension</h2>
+          <p>You can open a way into the <strong>Dungeons of Relic</strong> in two simple ways:</p>
+
+          <div class="grid-2" style="margin-top:12px;">
+            <div class="card">
+              <div class="card-header">
+                <img class="card-icon pixel-art" src="../assets/img/dungeon_gate_top_active.png" alt="Dungeon Gate" />
+                <div>
+                  <h3>Way 1: Ancient City Altar</h3>
+                  <span class="badge badge-purple">Find Naturally</span>
+                </div>
+              </div>
+              <p style="margin:0;">Explore <strong>Ancient Cities</strong> deep in the Overworld. You will find a naturally generated <strong>Dungeon Gate Altar</strong> made of Sculk and Dungeon Stone with an active glowing portal right in the center—just walk in!</p>
+            </div>
+
+            <div class="card">
+              <h3 style="margin-top:0;">Way 2: Craft a Dungeon Gate (x4)</h3>
+              <p style="margin-bottom:10px;">Craft <strong>Dungeon Gate</strong> blocks on a Crafting Table, then place <strong>12 blocks</strong> in a flat End-Portal-shaped ring (3 per side, open corners):</p>
+              <div class="craft-grid" aria-label="Dungeon Gate Recipe">
+                <div class="craft-slot">Diamond</div>
+                <div class="craft-slot">Ender Pearl</div>
+                <div class="craft-slot">Diamond</div>
+                <div class="craft-slot">Gold Ingot</div>
+                <div class="craft-slot">Obsidian</div>
+                <div class="craft-slot">Gold Ingot</div>
+                <div class="craft-slot">Stone Bricks</div>
+                <div class="craft-slot">Stone Bricks</div>
+                <div class="craft-slot">Stone Bricks</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="callout">
+            <strong>Good to know:</strong> As soon as you place the 12th Dungeon Gate block, the portal lights up automatically—no lighter needed! A safe return portal is also built automatically wherever you arrive.
+          </div>
+        </section>
+
+        <!-- 3. BIOMES & MINING -->
+        <section id="dor-world" class="wiki-section">
+          <h2>3. Biomes &amp; Where to Mine</h2>
+          <p>Days and nights last <strong>3 times longer</strong> inside the Dungeons of Relic, with custom colored fogs and glowing lighting effects.</p>
+
+          <div class="grid-2" style="margin:12px 0 18px;">
+            <div class="card">
+              <h3>Relic Overworld</h3>
+              <span class="badge">Cyan Mountain Biome</span>
+              <p style="margin-top:10px;margin-bottom:0;">Tall cliffs, misty blue-green skies, mountain peaks, and deep cave tunnels—watch the high summits for Wyverns and Mutant Goats.</p>
+            </div>
+            <div class="card">
+              <h3>Relic Deep Wilds</h3>
+              <span class="badge badge-purple">Pink Cherry Wilds</span>
+              <p style="margin-top:10px;margin-bottom:0;">Vibrant pink-and-purple terrain with <strong>Wilds Cherry Blossom Trees</strong>, Pink Tulips, Pink Orchids, natural water ponds, and peaceful Wilds Boulder Ranas.</p>
+            </div>
+          </div>
+
+          <h3>Underground Mining Guide (From Top to Bottom)</h3>
+          <p>Dig all the way down to the deepest stone layer to find <strong>Crystalline Ore</strong>:</p>
+          <div class="strata-stack">
+            <div class="strata-row" style="background:rgba(148,163,184,0.12);">
+              <div><strong>Top Layer — Regular Stone</strong><br><span style="color:var(--muted);font-size:0.88rem;">Surface caves and regular Overworld ores</span></div>
+              <span class="strata-depth">Depth 50 &amp; above</span>
+            </div>
+            <div class="strata-row" style="background:rgba(71,85,105,0.24);">
+              <div><strong>Middle Layer — Deepslate</strong><br><span style="color:var(--muted);font-size:0.88rem;">Coal, Iron, Gold, Redstone, Lapis, Emerald &amp; Diamond</span></div>
+              <span class="strata-depth">Depth 38 – 49</span>
+            </div>
+            <div class="strata-row" style="background:rgba(56,189,248,0.15);border-color:var(--border-strong);">
+              <div style="display:flex;align-items:center;gap:12px;">
+                <img class="pixel-art" src="../assets/img/crystalline_ore.png" alt="Dungeon Crystalline Ore" style="width:36px;height:36px;border-radius:7px;flex-shrink:0;" />
+                <div><strong>Deepest Layer — Dungeon Stone &amp; Crystalline Ore</strong><br><span style="color:var(--muted);font-size:0.88rem;">The <strong>only layer</strong> where <strong>Dungeon Crystalline Ore</strong> spawns!</span></div>
+              </div>
+              <span class="strata-depth" style="color:var(--cyan-bright);">Depth 24 – 37</span>
+            </div>
+            <div class="strata-row" style="background:rgba(15,23,42,0.75);">
+              <div><strong>Bottom Floor — Relic Bedrock</strong><br><span style="color:var(--muted);font-size:0.88rem;">Unbreakable bottom of the dimension</span></div>
+              <span class="strata-depth">Depth 22 – 23</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. MOBS & BOSSES WITH CUSTOM PORTRAIT ICONS -->
+        <section id="dor-mobs" class="wiki-section">
+          <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px;">
+            <h2 style="margin:0;">4. Mobs &amp; Dungeon Bosses</h2>
+            <div class="pill-group" role="tablist" aria-label="Filter creatures">
+              <button type="button" class="pill active" data-mob-filter="all">All (7)</button>
+              <button type="button" class="pill" data-mob-filter="boss">Bosses</button>
+              <button type="button" class="pill" data-mob-filter="hostile">Hostile</button>
+              <button type="button" class="pill" data-mob-filter="neutral">Neutral</button>
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <article class="mob-card" data-mob-type="boss hostile">
+              <div class="mob-head">
+                <img class="mob-portrait" src="../assets/img/mob_goblin_king.jpg" alt="Goblin King" />
+                <div class="mob-title-wrap">
+                  <h3>Goblin King</h3>
+                  <span class="badge badge-rose">Dungeon Boss</span>
+                </div>
+              </div>
+              <div class="mob-stats">
+                <span class="badge">250 Health</span>
+                <span class="badge badge-amber">14–22 Damage</span>
+                <span class="badge badge-purple">Stone Brick Dungeons</span>
+              </div>
+              <p style="margin:0;font-size:0.92rem;color:var(--muted);">Powerful dungeon ruler found in stone-brick ruins. Uses heavy <strong>Cleave</strong>, <strong>Roar</strong>, and ground-shaking <strong>Slam</strong> attacks.</p>
+              <div class="mob-drops"><strong>Drops:</strong> Gold Nuggets, Stone Essence</div>
+            </article>
+
+            <article class="mob-card" data-mob-type="boss hostile">
+              <div class="mob-head">
+                <img class="mob-portrait" src="../assets/img/mob_wyvern.jpg" alt="Soulfire Wyvern" />
+                <div class="mob-title-wrap">
+                  <h3>Soulfire Wyvern</h3>
+                  <span class="badge badge-rose">Flying Boss-Class</span>
+                </div>
+              </div>
+              <div class="mob-stats">
+                <span class="badge">250 Health</span>
+                <span class="badge badge-amber">16 Damage + Soulfire</span>
+                <span class="badge badge-purple">High Mountains (64+)</span>
+              </div>
+              <p style="margin:0;font-size:0.92rem;color:var(--muted);">Giant dragon-sized predator soaring over high peaks. Breathes glowing blue <strong>Soulfire Clouds</strong> and dives down to swoop at players.</p>
+              <div class="mob-drops"><strong>Drops:</strong> Dragon's Breath, Soul Lantern, Phantom Membrane, Cooked Relic Vulture, Relic Fiber, Gold Nuggets</div>
+            </article>
+
+            <article class="mob-card" data-mob-type="hostile">
+              <div class="mob-head">
+                <img class="mob-portrait" src="../assets/img/mob_mutant_goat.jpg" alt="Mutant Mountain Goat" />
+                <div class="mob-title-wrap">
+                  <h3>Mutant Mountain Goat</h3>
+                  <span class="badge badge-rose">Hostile</span>
+                </div>
+              </div>
+              <div class="mob-stats">
+                <span class="badge">80 Health</span>
+                <span class="badge badge-amber">12 Damage</span>
+                <span class="badge badge-purple">High Peaks (80+)</span>
+              </div>
+              <p style="margin:0;font-size:0.92rem;color:var(--muted);">Armored alpine beast found high up in the mountains. Charges aggressively at anyone climbing its territory.</p>
+              <div class="mob-drops"><strong>Drops:</strong> Goat Horn, Mutton, Relic Fiber, Gold Nuggets</div>
+            </article>
+
+            <article class="mob-card" data-mob-type="hostile">
+              <div class="mob-head">
+                <img class="mob-portrait" src="../assets/img/mob_goblin.jpg" alt="Goblin" />
+                <div class="mob-title-wrap">
+                  <h3>Goblin</h3>
+                  <span class="badge badge-rose">Hostile</span>
+                </div>
+              </div>
+              <div class="mob-stats">
+                <span class="badge">36 Health</span>
+                <span class="badge badge-amber">6–9 Damage</span>
+                <span class="badge badge-purple">Caves &amp; Dungeons</span>
+              </div>
+              <p style="margin:0;font-size:0.92rem;color:var(--muted);">Lurks inside underground caves and dungeon halls. Attacks with quick swings and heavier smash strikes.</p>
+              <div class="mob-drops"><strong>Drops:</strong> Gold Nuggets, Stone Essence</div>
+            </article>
+
+            <article class="mob-card" data-mob-type="hostile">
+              <div class="mob-head">
+                <img class="mob-portrait" src="../assets/img/mob_vulture.jpg" alt="Relic Vulture" />
+                <div class="mob-title-wrap">
+                  <h3>Relic Vulture</h3>
+                  <span class="badge badge-rose">Hostile</span>
+                </div>
+              </div>
+              <div class="mob-stats">
+                <span class="badge">32 Health</span>
+                <span class="badge badge-amber">6 Damage</span>
+                <span class="badge badge-purple">Highlands (60–140)</span>
+              </div>
+              <p style="margin:0;font-size:0.92rem;color:var(--muted);">Circles rocky ridges and swoops down on travelers. Hunt them for Vulture Meat, which cooks into great survival food.</p>
+              <div class="mob-drops"><strong>Drops:</strong> Raw Relic Vulture, Feathers, Relic Fiber, Gold Nuggets</div>
+            </article>
+
+            <article class="mob-card" data-mob-type="neutral">
+              <div class="mob-head">
+                <img class="mob-portrait" src="../assets/img/mob_vine_serpent.jpg" alt="Twisting Vine Serpent" />
+                <div class="mob-title-wrap">
+                  <h3>Twisting Vine Serpent</h3>
+                  <span class="badge badge-emerald">Peaceful Unless Attacked</span>
+                </div>
+              </div>
+              <div class="mob-stats">
+                <span class="badge">24 Health</span>
+                <span class="badge badge-amber">2 Damage + Nausea</span>
+                <span class="badge badge-purple">Grassy Surface (58–82)</span>
+              </div>
+              <p style="margin:0;font-size:0.92rem;color:var(--muted);"><strong>Neutral creature.</strong> Leaves you alone unless you hit it first—if provoked, its bite causes <strong>8 seconds of Nausea</strong>.</p>
+              <div class="mob-drops"><strong>Drops:</strong> Relic Fiber, Gold Nuggets</div>
+            </article>
+
+            <article class="mob-card" data-mob-type="neutral">
+              <div class="mob-head">
+                <img class="mob-portrait" src="../assets/img/mob_boulder_rana.jpg" alt="Boulder Rana" />
+                <div class="mob-title-wrap">
+                  <h3>Boulder Rana &amp; Wilds Rana</h3>
+                  <span class="badge badge-emerald">Peaceful Unless Attacked</span>
+                </div>
+              </div>
+              <div class="mob-stats">
+                <span class="badge">80 Health</span>
+                <span class="badge badge-amber">11 Damage</span>
+                <span class="badge badge-purple">Surface &amp; Caves (36–82)</span>
+              </div>
+              <p style="margin:0;font-size:0.92rem;color:var(--muted);"><strong>Neutral stone frogs</strong> found in both biomes (mossy gray in Relic Overworld, pink-purple in Deep Wilds). Only fight back if attacked.</p>
+              <div class="mob-drops"><strong>Drops:</strong> Relic Fiber, Gold Nuggets, Ochre or Pearlescent Froglight</div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 5. CRYSTALLINE GEAR -->
+        <section id="dor-gear" class="wiki-section">
+          <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px;">
+            <h2 style="margin:0;">5. Crystalline Armor &amp; 3D Tools</h2>
+            <div class="pill-group" role="tablist" aria-label="Gear tabs">
+              <button type="button" class="pill active" data-gear-tab="recipes">How to Craft</button>
+              <button type="button" class="pill" data-gear-tab="armor">Armor Stats</button>
+              <button type="button" class="pill" data-gear-tab="tools">Tools &amp; Weapons</button>
+            </div>
+          </div>
+
+          <div data-gear-panel="recipes">
+            <p>First, mine <strong>Dungeon Crystalline Ore</strong> deep underground (Depth 24–37) to get <strong>Crystalline</strong>. Then upgrade your <strong>Netherite Armor or Tools</strong> at a <strong>Smithing Table</strong>:</p>
+            <div class="smithing-flow">
+              <div class="smithing-slot"><img class="pixel-art" src="../assets/img/crystalline.png" alt="Crystalline" style="width:24px;height:24px;" /> Netherite Upgrade Template <em>or</em> Crystalline</div>
+              <span class="smithing-op">+</span>
+              <div class="smithing-slot">Netherite Armor / Tool</div>
+              <span class="smithing-op">+</span>
+              <div class="smithing-slot"><img class="pixel-art" src="../assets/img/crystalline.png" alt="Crystalline" style="width:24px;height:24px;" /> Crystalline</div>
+              <span class="smithing-op">&rarr;</span>
+              <div class="smithing-slot" style="border-color:var(--cyan);"><img class="pixel-art" src="../assets/img/crystalline_chestplate.png" alt="Crystalline Gear" style="width:24px;height:24px;" /> 3D Crystalline Gear</div>
+            </div>
+            <div class="callout">
+              <strong>Bonus for Tools &amp; Weapons:</strong> You can also craft Crystalline Sword, Pickaxe, Axe, Shovel, and Hoe directly on a regular <strong>Crafting Table</strong> using <strong>Crystalline</strong> and <strong>Sticks</strong>! All Crystalline gear is <strong>fire- and lava-proof</strong>.
+            </div>
+          </div>
+
+          <div data-gear-panel="armor" style="display:none;">
+            <p>Full 3D Crystalline Armor offers <strong>28 total protection</strong>, <strong>4,070 total durability</strong> (2x stronger than Netherite), high enchantability, and fire &amp; lava immunity.</p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr><th>Armor Piece</th><th>Armor</th><th>Durability</th><th>Special</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_helmet.png" alt="Helmet" /> Crystalline Helmet</span></td><td>5</td><td>814</td><td>Fire &amp; Lava Proof</td></tr>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_chestplate.png" alt="Chestplate" /> Crystalline Chestplate</span></td><td>10</td><td>1,184</td><td>Fire &amp; Lava Proof</td></tr>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_leggings.png" alt="Leggings" /> Crystalline Leggings</span></td><td>8</td><td>1,110</td><td>Fire &amp; Lava Proof</td></tr>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_boots.png" alt="Boots" /> Crystalline Boots</span></td><td>5</td><td>962</td><td>Fire &amp; Lava Proof</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div data-gear-panel="tools" style="display:none;">
+            <p>All five <strong>3D Crystalline Tools &amp; Weapons</strong> have custom 3D models in your hand, <strong>2,438 durability</strong>, high enchantability, and fire &amp; lava immunity.</p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr><th>Tool / Weapon</th><th>Attack Damage</th><th>Durability</th><th>Special</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_sword.png" alt="Sword" /> Crystalline Sword</span></td><td>10</td><td>2,438</td><td>3D Model, Fire Proof</td></tr>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_axe.png" alt="Axe" /> Crystalline Axe</span></td><td>9</td><td>2,438</td><td>3D Model, Fire Proof</td></tr>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_pickaxe.png" alt="Pickaxe" /> Crystalline Pickaxe</span></td><td>7</td><td>2,438</td><td>3D Model, Fire Proof</td></tr>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_shovel.png" alt="Shovel" /> Crystalline Shovel</span></td><td>7</td><td>2,438</td><td>3D Model, Fire Proof</td></tr>
+                  <tr><td><span class="item-cell"><img class="pixel-art" src="../assets/img/crystalline_hoe.png" alt="Hoe" /> Crystalline Hoe</span></td><td>7</td><td>2,438</td><td>3D Model, Fire Proof</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. FOODS & LOOT -->
+        <section id="dor-items" class="wiki-section">
+          <h2>6. Foods, Wood &amp; Drops</h2>
+          <div class="grid-2">
+            <div class="card">
+              <div class="card-header">
+                <img class="card-icon pixel-art" src="../assets/img/cherry_fruit.png" alt="Wilds Cherry" />
+                <div><h3>Wilds Cherry</h3><span class="badge badge-purple">Restores 4 Hunger</span></div>
+              </div>
+              <p style="margin:0;">Drops when breaking Wilds Cherry Blossom Leaves in the pink Deep Wilds biome.</p>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img class="card-icon pixel-art" src="../assets/img/cooked_vulture_meat.png" alt="Cooked Relic Vulture" />
+                <div><h3>Cooked Relic Vulture</h3><span class="badge badge-amber">Restores 8 Hunger</span></div>
+              </div>
+              <p style="margin:0;">Cook Raw Relic Vulture meat in a Furnace for a filling, high-saturation meal.</p>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img class="card-icon pixel-art" src="../assets/img/stone_essence.png" alt="Stone Essence" />
+                <div><h3>Stone Essence</h3><span class="badge">Dungeon Drop</span></div>
+              </div>
+              <p style="margin:0;">Dropped by Goblins and the Goblin King inside underground dungeons.</p>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img class="card-icon pixel-art" src="../assets/img/relic_fiber.png" alt="Relic Fiber" />
+                <div><h3>Relic Fiber &amp; Wilds Wood</h3><span class="badge badge-emerald">Materials</span></div>
+              </div>
+              <p style="margin:0;">Relic Fiber drops from dimension wildlife. Turn 1 Wilds Cherry Log into 4 Wilds Cherry Planks.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. HOW TO INSTALL -->
+        <section id="dor-install" class="wiki-section">
+          <h2>7. How to Install</h2>
+          <ol>
+            <li>Download the <strong>Dungeons of Relic</strong> file from CurseForge and tap/open it with Minecraft: Bedrock Edition.</li>
+            <li>Open your world settings and turn on <strong>both</strong> the <strong>Behavior Pack</strong> and <strong>Resource Pack</strong>.</li>
+            <li>Make sure you are playing on <strong>Minecraft: Bedrock Edition 1.26.50 or newer</strong>.</li>
+          </ol>
+          <div class="callout callout-amber">
+            <strong>All Rights Reserved (&copy; 2026 terutherabbit):</strong> Please do not re-upload or redistribute this add-on. YouTube and TikTok showcases are always welcome—just link back to the official CurseForge page!
+          </div>
+          <div class="hero-actions" style="margin-top:16px;">
+            <a class="btn btn-cf" data-cf-addon="dungeons-of-relic" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download Dungeons of Relic on CurseForge</a>
+            <a class="btn btn-ghost" data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">See All Add-ons by terutherabbit</a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>Teru's Addon Wiki</strong> &middot; &copy; 2026 terutherabbit &middot; All Rights Reserved</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="../index.html">Wiki Home</a>
+        <a data-cf-addon="dungeons-of-relic" href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Download on CurseForge</a>
+        <a data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">terutherabbit Profile</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data/addons.js"></script>
+  <script src="../assets/wiki.js"></script>
+</body>
+</html>
