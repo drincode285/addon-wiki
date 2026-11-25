@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teru's Addon Wiki</title>
+  <meta name="description" content="Official Minecraft: Bedrock Edition add-on guides, mob info, and crafting recipes by terutherabbit." />
+  <link rel="icon" type="image/png" href="assets/img/crystalline.png" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a class="brand" href="index.html">
+        <img class="pixel-art" src="assets/img/crystalline.png" alt="Teru's Addon Wiki" />
+        <span>Teru's Addon Wiki</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a class="nav-link active" href="index.html">All Add-ons</a>
+        <a class="nav-link" href="addons/dungeons-of-relic.html">Dungeons of Relic</a>
+        <a class="btn btn-cf" data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">CurseForge Profile</a>
+      </nav>
+      <button type="button" id="mobile-menu-btn" class="menu-toggle" aria-expanded="false" aria-controls="mobile-drawer">Menu</button>
+    </div>
+    <nav id="mobile-drawer" class="mobile-drawer" aria-label="Mobile navigation">
+      <a class="nav-link active" href="index.html">All Add-ons</a>
+      <a class="nav-link" href="addons/dungeons-of-relic.html">Dungeons of Relic Guide</a>
+      <a class="btn btn-cf" data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">Visit CurseForge Profile</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-box">
+        <span class="badge">Official Player Guide &bull; By terutherabbit</span>
+        <h1>Teru's Addon Wiki</h1>
+        <p class="lead">Easy-to-read survival guides, mob info, and crafting recipes for every Minecraft: Bedrock Edition add-on created by <strong>terutherabbit</strong>.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="addons/dungeons-of-relic.html">Read Dungeons of Relic Guide</a>
+          <a class="btn btn-cf" data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">CurseForge Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Add-on catalog">
+      <div class="toolbar">
+        <input id="catalog-search" class="search-input" type="search" placeholder="Search add-ons, bosses, armor, portals..." aria-label="Search add-ons" />
+        <div class="pill-group">
+          <button type="button" class="pill active" data-cat-filter="All">All</button>
+          <button type="button" class="pill" data-cat-filter="New Dimension">Dimension</button>
+          <button type="button" class="pill" data-cat-filter="Bosses">Bosses</button>
+          <button type="button" class="pill" data-cat-filter="3D Armor & Tools">Gear</button>
+        </div>
+      </div>
+      <div id="addon-catalog-grid" class="grid-2"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>Teru's Addon Wiki</strong> &middot; &copy; 2026 terutherabbit &middot; All Rights Reserved</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a data-cf-profile href="https://www.curseforge.com/members/terutherabbit/projects" target="_blank" rel="noopener noreferrer">CurseForge Profile</a>
+        <a href="addons/dungeons-of-relic.html">Dungeons of Relic</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/addons.js"></script>
+  <script src="assets/wiki.js"></script>
+</body>
+</html>
